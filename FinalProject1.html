@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>True Crime Obsessed</title>
+    <style>
+      h1 {
+        text-align: center;
+        font-size: 42px;
+        padding: 1px;
+      }
+      .crime {
+        color: #e00842;
+      }
+      h2 {
+        text-align: center;
+        font-size: 32px;
+        font-weight: lighter;
+        font-family: Apple Chancery, cursive;
+      }
+      img {
+        text-align: center;
+        margin: 10px auto;
+        display: block;
+        border-radius: 20%;
+        border: 2px solid #e00842;
+
+      }
+      body {
+        background:linear-gradient(179.4deg, rgb(253, 240, 233) 2.2%, rgb(255, 194, 203) 96.2%);;
+      }
+    
+      .box{
+        inline-size: 600px;
+        margin: 10px auto;
+        padding: 10px;
+        overflow: hidden;
+        border: 3px solid #e00842;
+        background:rgb(255, 194, 203);
+
+      }
+      .finalProject{
+        inline-size: 600px;
+        margin: 0 auto;
+        overflow: hidden;
+      }
+      ul{ 
+        list-style: none;
+        padding: 0px;
+        margin: 30px auto 10px auto;
+      }
+      .podcasts{
+        text-align: center;
+        font-weight: bold;
+        text-decoration: underline; 
+      }
+      .pod{
+        text-decoration: underline;
+        font-weight: bold;
+        font-style: italic;
+      }
+      
+        hr{
+          width: 600px;
+          line-height: 4px;
+        }
+        button{
+        color: #e00842;
+        text-align: center;
+        width: 150px;
+        display: block;
+        margin: 0 auto;
+        justify-content: center;
+        padding: 10px;
+        border: 1px solid #061586;
+        border-radius: 20px;
+        background-color: #270965;
+        box-shadow: 5px 5px 5px gray;
+        transition: all 200ms ease-in-out;}
+        
+        button:hover{
+          background: #e00842;
+          color: #270965;
+          cursor: pointer;
+
+        }
+      h3 {
+         font-weight: lighter;
+          text-decoration: underline;
+          font-size: smaller;
+          text-align: center;
+        }
+        h3:hover{
+          cursor: pointer;
+          color: #2d4059;
+        }
+        h4{ text-align: center;
+        font-style: italic;}
+    </style>
+  </head>
+  <body>
+    <h1>
+      🔪 <span class="crime">True Crime</span>🩸
+      <h2>
+      The genre that has taken the world by morbid curiosity!</h2>
+    </h1>
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/034/078/original/True-Crime-1-900x720-1.jpeg?1652310106"
+        width="300px"
+      />
+<br/>
+    <hr />
+    <div class ="box"><p>
+      True crime is a nonfiction literary, podcast, and film genre in which the
+      author examines an actual crime and details the actions of real people
+      associated with and affected by criminal events. The crimes most commonly
+      include murder; about 40 percent focus on tales of serial killers. True
+      crime comes in many forms, such as books, films, podcasts, and television
+      shows. True crime works can impact the crimes they cover and the audience
+      who consumes it.
+      <br />
+      <br />
+      Many individuals have consumed true crime podcasts, movies and books in
+      extreme fashion over the past 10 years. Within the last 5 years, unsolved
+      murders and crimes have become solved due to the attention brought to the
+      cases. Individuals will attribute their love of true crime from Sarah
+      Koenig's podcast show called <em> Serial</em>. We fell in love with the
+      tantilizing information she gave us throughout the episodes. There are now a variety
+      of podcasts, tv shows, movies and books about true crime that anyone can find a story that
+      they find interesting and educational. </div>
+    </p>
+    <div class = "podcasts">Below you will find a few of the most popular podcasts of 2022!</div>
+    <ul>
+      <div class="finalProject">
+        
+        <li>
+          <span class = "pod">Morbid: A True Crime Podcast:</span> Started by Alaina and
+          Ash, two cousins, (who are more like sister) share stories from every
+          century. They have witty banter between the two and are able to
+          empathize with the victims while still addressing the seriousness of
+          the crimes. <small>(Wondery)</small>
+        </li>
+        <li>
+          <span class = "pod">Crime Junkies:</span> Stars Ashley and Brit tell the stories
+          of individuals who have had the ultimate crimes committed against them
+          and their families. They bring a real picture to the crimes and ask
+          for the publics help to solve the crimes that remain open. Between
+          Ashley, Brit and AudioChuck they have set up foundations to help solve
+          the unsolveable and have been able to do this with the help of
+          listeners. <small>(AudioChuck)</small>
+        </li>
+        <li>
+          <span class="pod">Unsolved Murders: True Crime Stories:</span> Unsolved
+          murders and crimes told by an ensemble of cast members. They dive into
+          the history and the inner workings of the crimes. Told in true
+          storyteller fashion, the episodes bring to life the cold cases and
+          unsolved murders. <small>(Parcast)</small>
+          </li>
+    </ul>   
+  </div>
+        <hr />
+        
+    <h3>
+      <a href="https://en.wikipedia.org/wiki/True_crime" target ="_blank">
+      Further Reading</a> </h3> 
+      <br/>
+      <br/>
+    
+    <button>Click Me If You Dare 🫣</button>
+
+    <h4><small> Coded by Taylor Mickelson</small></h4>
+    <script>
+      function clickMe() {
+        let name = prompt("What is your first name?");
+        let age = prompt("What is your age?");
+
+        if (age < 18) {
+          alert("Sorry "  + name + ", you're not old enough for this content! 😱")
+        } else {
+          alert("Welcome " + name + ", to the dark side! 👻")
+          
+        }
+      }
+      let button = document.querySelector("button");
+      button.addEventListener("click", clickMe);
+    </script>
+  </body>
+</html>
